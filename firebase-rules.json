@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "smart_irrigation": {
+      "device_1": {
+        ".read": true,
+        ".write": true,
+        "sensors": { ".read": true, ".write": true },
+        "control": { ".read": true, ".write": true },
+        "schedule": { ".read": true, ".write": false },
+        "farm": { ".read": true, ".write": true },
+        "weather": { ".read": true, ".write": true },
+        "alerts": { ".read": true, ".write": false },
+        "status": { ".read": true, ".write": false }
+      }
+    }
+  }
+}
