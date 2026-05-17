@@ -4,26 +4,18 @@ import { getDatabase, ref, onValue, set, off } from "firebase/database";
 import { Chart, registerables } from "chart.js";
 Chart.register(...registerables);
 
-// ─── FIREBASE CONFIG ───────────────────────────────────────────────────────────
-// Replace with your Firebase project config
-// const firebaseConfig = {
-//   apiKey: "YOUR_API_KEY",
-//   authDomain: "YOUR_AUTH_DOMAIN",
-//   databaseURL: "YOUR_DATABASE_URL",
-//   projectId: "YOUR_PROJECT_ID",
-//   storageBucket: "YOUR_STORAGE_BUCKET",
-//   messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-//   appId: "YOUR_APP_ID",
-// };
+─── FIREBASE CONFIG ───────────────────────────────────────────────────────────
+Replace with your Firebase project config
 const firebaseConfig = {
-  apiKey: "AIzaSyAkrhcAfA4xYE1SHWNp5bUCHKa0pKiLIYs",
-  authDomain: "nimbus-27.firebaseapp.com",
-  databaseURL: "https://nimbus-27-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "nimbus-27",
-  storageBucket: "nimbus-27.firebasestorage.app",
-  messagingSenderId: "937633162895",
-  appId: "1:937633162895:web:90dc8024322c004f8e32fa"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  databaseURL: "YOUR_DATABASE_URL",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
 };
+
 
 
 const app = initializeApp(firebaseConfig);
