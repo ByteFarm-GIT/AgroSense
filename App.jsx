@@ -22,7 +22,7 @@ const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 
 // ─── OPENWEATHERMAP CONFIG ─────────────────────────────────────────────────────
-const OWM_API_KEY = "bd5e378503939ddaee76f12ad7a97608";
+const OWM_API_KEY = "Api Key";
 const OWM_CITY = "Belgaum,IN";
 
 // ─── HELPERS ──────────────────────────────────────────────────────────────────
